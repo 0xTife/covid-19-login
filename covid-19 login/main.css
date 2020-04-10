@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #17d6dd;
+    height: 100vh;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    margin: auto;
+}
+
+.box1 {
+    border: 2px solid linear-gradient(-45deg, #fe0847, #feae3f);
+    ;
+    background: linear-gradient(-45deg, #fe0847, #feae3f);
+    ;
+    width: 400px;
+    height: 650px;
+    margin-right: 40px;
+    box-shadow: 0px 10px 30px #111;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.box2 {
+    border: 2px solid none;
+    background: linear-gradient(-45deg, #24ff72, rgb(70, 203, 203));
+    width: 400px;
+    height: 650px;
+    box-shadow: 0px 10px 30px #111;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.box1 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.box1 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 200px;
+    line-height: 1.5em;
+    margin-top: -20px;
+}
+
+.box1 p {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #fff;
+    border-left: 10px solid white;
+}
+
+h4 {
+    font-weight: normal;
+    color: #fff;
+    margin-top: -25px;
+    border-left: 10px solid white;
+}
+
+.box1 input[type="button"] {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: white;
+    color: #fe0847;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+}
+
+.box1 input[type="button"]:hover {
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0px 10px 10px #111;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.arrow-left {
+    width: 60px;
+    height: 60px;
+}
+
+.box2 form {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.box2 form input {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #fff;
+    font-size: 20px;
+    
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: white;
+    color: #24ff72;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 0 120px;
+    text-align: center;
+}
+
+.btn:hover {
+    color: white;
+    border: 2px solid #000;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.box2 h5 {
+    color: #fff;
+    font-size: 17px;
+}
+
+.box2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.box2 a:hover {
+    color: white;
+}
+
+.usr{
+    width: 150px;
+    height: 150px;
+    border: 5px dotted #24ff72;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0px 90px 0px 80px;
+}
